@@ -1,5 +1,7 @@
 "use client";
 
+import { Mail, MapPin, Phone } from "lucide-react";
+
 export default function Contact() {
   return (
     <section id="contact" className="px-5 pb-12 pt-6 lg:px-8">
@@ -9,7 +11,7 @@ export default function Contact() {
             <div className="mb-4 text-xs font-black uppercase tracking-[.22em] text-[#063d38]">
               Эхлэхэд бэлэн үү?
             </div>
-            <h2 className="max-w-3xl text-5xl font-black leading-[.92] tracking-[-.05em] text-[#063d38] sm:text-7xl">
+            <h2 className="max-w-3xl text-5xl font-black leading-[.92] tracking-tighter text-[#063d38] sm:text-7xl">
               Хэлээ өөрчил.
               <br />
               Өдөрөө өөрчил.
@@ -18,10 +20,30 @@ export default function Contact() {
               15 минутын үнэгүй түвшин тогтоох ярилцлага захиалаад, өөрт тохирох
               хөтөлбөрөө ол.
             </p>
+            <div className="mt-8 grid gap-3 text-sm text-[#31524d]">
+              <a
+                href="tel:+97600000000"
+                className="flex items-center gap-3 transition hover:text-[#063d38]"
+              >
+                <Phone size={18} className="text-[#ff7d43]" />
+                +976 0000 0000
+              </a>
+              <a
+                href="mailto:hello@tanaimailhayg.com"
+                className="flex items-center gap-3 transition hover:text-[#063d38]"
+              >
+                <Mail size={18} className="text-[#ff7d43]" />
+                hello@tanaimailhayg.com
+              </a>
+              <div className="flex items-center gap-3">
+                <MapPin size={18} className="text-[#ff7d43]" />
+                Улаанбаатар хот, Хан-Уул дүүрэг
+              </div>
+            </div>
           </div>
           <form
             onSubmit={(e) => e.preventDefault()}
-            className="rounded-[32px] bg-white p-5 shadow-xl sm:p-7"
+            className="rounded-4xl bg-white p-5 shadow-xl sm:p-7"
           >
             <div className="grid gap-3">
               <input
