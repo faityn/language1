@@ -7,6 +7,12 @@ export const courses = [
     time: "8 долоо хоног",
     color: "bg-[#ffd96a]",
     icon: "💬",
+    image: "/courses/1.png",
+    features: [
+      "Өдөр тутмын ярианы 12 бодит сэдэв",
+      "Дуудлага, үгийн сангийн хувийн feedback",
+      "Role-play болон speaking challenge",
+    ],
   },
   {
     tag: "IELTS",
@@ -16,6 +22,12 @@ export const courses = [
     time: "10 долоо хоног",
     color: "bg-[#82cfff]",
     icon: "🎯",
+    image: "/courses/2.png",
+    features: [
+      "IELTS-ийн 4 чадварын стратеги",
+      "7 хоног бүрийн mock test, онооны тайлан",
+      "Writing болон Speaking-ийн дэлгэрэнгүй feedback",
+    ],
   },
   {
     tag: "ХҮҮХЭД",
@@ -25,6 +37,12 @@ export const courses = [
     time: "12 долоо хоног",
     color: "bg-[#ffb5c9]",
     icon: "🌈",
+    image: "/courses/3.png",
+    features: [
+      "Story, тоглоом, дуугаар сурах хичээл",
+      "Өдөр тутмын үг хэллэгийн хөгжилтэй дасгал",
+      "Хүүхэд бүрийн ахицын эцэг эхийн тайлан",
+    ],
   },
   {
     tag: "КАРЬЕР",
@@ -34,6 +52,12 @@ export const courses = [
     time: "6 долоо хоног",
     color: "bg-[#bdeecf]",
     icon: "💼",
+    image: "/courses/4.png",
+    features: [
+      "Meeting, presentation, interview-ийн дадлага",
+      "Ажлын email болон мэргэжлийн үгийн сан",
+      "Бодит кейс дээрх role-play, хувийн зөвлөгөө",
+    ],
   },
 ];
 
@@ -76,4 +100,3 @@ export const faqs = [
     "Тийм. Сонгосон хөтөлбөрөөс хамаарч 2 хувааж төлөх боломжтой.",
   ],
 ];
-
