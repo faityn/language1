@@ -1,8 +1,9 @@
-# LINGUORA — Language Center
+# Language Center
 
 Монгол хэл дээрх, орчин үеийн хэлний сургалтын төвийн landing page.
 
 ## Ашигласан технологи
+
 - Next.js App Router
 - TypeScript
 - Tailwind CSS v4
@@ -31,7 +32,9 @@ npm start
 ```
 
 ## Өөрчлөхөд
+
 Бүх үндсэн контент `components/site.tsx` дотор:
+
 - сургалтын нэр, тайлбар
 - үнэ/хугацаа
 - сэтгэгдэл
